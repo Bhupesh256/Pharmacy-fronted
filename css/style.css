@@ -847,3 +847,282 @@
 .deals-of-the-day > .title >.timer i{
     color: white;
 }
+
+/*--health-articles---*/
+
+.health-articles > h1{
+    margin-bottom: 20px;
+}
+
+.health-articles > div::-webkit-scrollbar{
+    display: none;
+}
+
+.health-articles > div{
+    display: flex;
+    overflow: auto;
+    padding: 1px;
+    gap: 30px;
+}
+
+.health-articles > div > div:hover{
+    box-shadow: var(--shadow);
+}
+
+.health-articles > div > div{
+    box-shadow: var(--shadow-border);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.health-articles > div  img{
+    height: 180px;
+    border-radius: 8px 8px 0 0;
+    aspect-ratio: 1.3;
+    object-fit: cover;
+}
+
+.health-articles > div p{
+    margin: 14px 20px;
+}
+
+/*--why-choose-us---*/
+
+.why-choose-us{
+    background-color: rgb(241,247,255);
+}
+
+.why-choose-us > div{
+    margin-bottom: 40px;
+}
+
+.why-choose-us > div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.why-choose-us > div > div{
+    display: flex;
+    align-items: center;
+}
+
+.why-choose-us > div div > div{
+    margin-left: 20px;
+}
+
+.why-choose-us > div > div img{
+    height: 80px;
+}
+
+.why-choose-us > div > div h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.why-choose-us > div > div p{
+    font-size: 15px;
+}
+
+/*--customer-reviews--*/
+
+.customer-review > .title{
+    margin-bottom: 35px;
+}
+
+.reviews::-webkit-scrollbar{
+    display: none;
+}
+
+.reviews{
+    display: flex;
+    overflow: auto;
+    gap: 40px;
+}
+
+.reviews > div{
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews > div > h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.reviews > div > div{
+    margin-top: 20px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px rgb(137,226,226);
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(233,255,255);
+}
+
+.reviews > div > div > i{
+    color: rgb(202,233,233);
+    font-size: 23px;
+}
+
+.reviews > div > div > p{
+    color: rgb(100,100,100);
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/*---app-promo---*/
+
+.app-promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(https://assets.pharmeasy.in/apothecary/images/downloadBanner.webp?dim=1024x0&q=100) rgb(224,255,248);
+    background-size: cover;
+}
+
+.app-promo > h1{
+    font-size: 38px;
+}
+
+.app-promo > h3{
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.app-promo > div{
+    display: flex;
+    gap:  50px;
+}
+
+.app-promo img{
+    height: 50px;
+    cursor: pointer;
+}
+
+/*--FAQ--*/
+
+.FAQ > h5{
+    margin-top: 25px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 22px;
+}
+
+.FAQ > h5  > b{
+    font-weight: 600;
+}
+
+.FAQ > h5 > span:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.FAQ > h5 > br{
+    line-height: 10px;
+    height: 10px;
+}
+
+.FAQ > h5 > p{
+    height: 10px;
+}
+
+.FAQ > h4{
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+/*--floating-button--*/
+
+.floating-button{
+    height: 55px;
+    width: 55px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(36,75,250);
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    margin: 20px;
+}
+
+.floating-button i{
+    font-size: 20px;
+    color: white;
+}
+
+/*---footer-*/
+
+.footer{
+    background-color: rgb(234,241,255);
+    padding-bottom: 60px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top > div ul{
+    list-style: none;
+}
+
+.footer h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+}
+
+.footer > div > li{
+    font-size: 15px;
+    margin: 13px 0;
+    cursor: pointer;
+}
+
+.footer-top > div:last-child h3{
+    margin-bottom: 20px;
+}
+
+.footer-top > div:last-child li{
+    display: inline;
+    margin-right: 12px;
+}
+
+.footer-top > div:last-child img{
+    width: 30px;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+}
+
+.footer-bottom > div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-bottom > div > div{
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom img{
+    height: 20px;
+}
+
+.footer-bottom > div p{
+    margin-left: auto;
+    min-width: max-content;
+    font-size: 15px;
+}
